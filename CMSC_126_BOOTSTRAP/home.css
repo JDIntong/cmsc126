@@ -1,0 +1,521 @@
+/*INDEX*/
+
+body
+{
+	background-color: #c9c9c9;
+	background-image: url("assets/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*logo image*/
+#logo{
+	position: relative;
+	width: 450px;
+	padding: 20px;
+	top: 150px;
+	left: 300px;
+	z-index: 5;
+}
+
+#t_index{
+	font-family: Century Gothic;
+	position: relative;
+	left: 780px;
+	top: -215px;
+}
+
+#h_index{
+	color: #325137;
+	font-size: 42px;
+	font-weight: bold;
+	width: 555px;
+	padding: 5px;
+	border-bottom: 5px solid #c9c9c9;
+}
+
+.li_index{
+	list-style: none;
+	width: 500px;
+	position: relative;
+	display: grid;
+	grid-row-gap: 10px;
+}
+
+.li_index li a{
+	background-color: #7B1113;
+	color: #f2f2f2;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: left;
+	transition: 0.2s;	
+}
+
+.li_index li a:hover{
+	background-color: #d09d9e;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: left;
+}
+
+/*HOME*/
+
+/*banner image*/
+#banner{
+	position: relative;
+	left: 17.5%;
+	width: 62.5%;
+	top: -10px;
+	padding: 20px;
+}
+
+/*main navbar*/
+.tablinks_main {
+	background-color: #7B1113;
+	overflow: hidden;
+	list-style: none;
+	position: relative;
+	left: 17.5%;
+	width: 61.8%;
+	top: -31px;
+  }
+  
+  .tablinks_main li a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Century Gothic;
+	display: inline;
+	transition: 0.2s;
+  }
+  
+  /*action of navbar on hover*/
+  .tablinks_main a:hover {
+	background-color: #d09d9e;
+	color: black;
+  }
+  
+  /*sub navbar*/
+  .tablinks {
+		background-color: #444;
+		overflow: hidden;
+		list-style: none;
+		height: 33px;
+		top: -51px;
+		position:relative;
+		left: 17.5%;
+		width: 61.8%;
+		z-index: 2;
+		box-shadow: 0px 5px 10px -5px #888888;
+  }
+  
+  .tablinks li a{
+	  position:relative;
+	  top: -6.5px;
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 15px;
+	  text-decoration: none;
+	  font-size: 13px;
+	  font-family: Century Gothic;
+	  display: inline;
+	  transition: 0.2s;
+  }
+  
+  /*action of navbar on hover*/
+  .tablinks a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+
+  #tabs-1{
+	background-color:#f9f9f9;
+	padding: 20px;
+	position: relative;
+	top:-67.5px;
+	left: 17.5%;
+	width: 61.80%;
+	border: 5px solid #287c36;
+}
+
+#history{
+	background-color: #dbdbdb;
+}
+
+#his{
+	font-family: Century Gothic;
+	color: #222;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+#tabs-2{
+	background-color:#f9f9f9;
+	padding: 20px;
+	position: relative;
+	top:-67.5px;
+	left: 17.5%;
+	width: 61.80%;
+	border: 5px solid #287c36;
+}
+
+#vismis{
+	font-family: Century Gothic;
+	color: #222;
+	text-align: left;
+	margin-left:10%;
+	margin-right:10%;
+	position: relative;
+}
+
+h1{
+	font-family: Century Gothic;
+	color: #7B1113;
+	text-align: center;
+	font-size: 50px;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+#tabs-3{
+	background-color:#f9f9f9;
+	padding: 20px;
+	position: relative;
+	top:-67.5px;
+	left: 17.5%;
+	width: 61.80%;
+	border: 5px solid #287c36;
+}
+
+#contact{
+	font-family: Century Gothic;
+	color: #222;
+}
+
+#contact_info{
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #222;
+}
+
+#map {
+	position: center;
+	width: 100%;
+  	height: auto;
+}
+
+/*ACAD PROGRAMS*/
+.acadtablinks {
+	background-color: #444;
+	font-family: Century Gothic;
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	height: 90px;
+	top: -50px;
+	position:relative;
+	left: 17.5%;
+	width: 61.8%;
+}
+
+#acad_bold{
+	position: relative;
+	font-family: century gothic;
+	font-weight: bold;
+}
+
+#acad2{
+	position: relative;
+	left: 3%;
+	top: -10px;
+	width: 90%;
+	font-family: century gothic;
+}
+
+/*ACAD UNITS*/
+
+#acad-tabs-1{
+	background-color:#f9f9f9;
+	padding: 20px;
+	position: relative;
+	top:-67.5px;
+	left: 17.5%;
+	width: 61.80%;
+	border: 5px solid #287c36;
+}
+
+#h_acad{
+	font-family: Century Gothic;
+	font-weight: bold;
+	color: #222;
+	margin-left:10%;
+	margin-right:10%;
+	font-size: 32px;
+	width: 400px;
+}
+
+#h_acad_sub{
+	position: relative;
+	font-family: Century Gothic;
+	color: #222;
+	font-weight: bold;
+	margin-left:10%;
+	margin-right:10%;
+	font-size: 18px;
+}
+
+#acad{
+	position: relative;
+	left: 10%;
+	top: -10px;
+	font-family: century gothic;
+	line-height: 0.7;
+}
+
+.acad-tablinks {
+	background-color: #444;
+	vertical-align: middle;
+	color: #ffffff;
+	height: 60px;
+	top: -47px;
+	position:relative;
+	left: 17.5%;
+	width: 61.8%;
+	box-shadow: 0px 5px 10px -5px #888888;
+}
+
+.acad-tablinks li{
+  position:relative;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 15px;
+  font-size: 15px;
+  font-family: Century Gothic;
+  display: inline;
+  transition: 0.2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SIGNUP*/
+#page_area{
+	background-color:#f9f9f9;
+	padding: 20px;
+	position: relative;
+	top:-47.5px;
+	left: 17.5%;
+	width: 61.8%;
+	border: 5px solid #287c36;
+}
+
+#page-area-sign-up{
+	position: relative;
+	width:50%;
+	border: 5px solid #c9c9c9;
+	left: 25%;
+}
+
+#sign-up-head{
+	position: relative;
+	font-family: Century Gothic;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+	border-bottom: 5px solid #c9c9c9;
+}
+
+#form_area{
+	position: relative;
+	left: 6%;
+	width: 300px;
+	height:400px;
+}
+
+#form_2{
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 811px;
+	font-family: Century Gothic;
+}
+
+#name_area{
+	display: inline;
+}
+
+#fname{
+	position: relative;
+	font-size: 18px;
+	width: 250px;
+	padding: 5px;
+	height:25px;
+}
+
+#mname{
+	position: relative;
+	top: 8px;
+	font-size: 18px;
+	width: 200px;
+	padding: 5px;
+	height:25px;
+}
+
+#lname{
+	position: relative;
+	top: 16px;
+	font-size: 18px;
+	width: 200px;
+	padding: 5px;
+	height:25px;
+}
+
+#gender_area{
+	width: 407px;
+	position: relative;
+	top: 10px;
+	left:-1%;
+	font-family: Century Gothic;
+
+}
+
+#birthday_area {
+	font-family: Century Gothic;
+	position: relative;
+	left:-1%;
+	top: 10px;
+}
+
+#birthday {
+	font-size: 18px;
+	padding: 5px;
+	height:25px;
+	width: 150px;
+}
+
+.ui-datepicker{
+	font-family: Century Gothic;
+	background-color: #e9e9e9;
+	width:200px;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.ui-datepicker-calendar {
+	font-family: Century Gothic;
+	text-decoration: none;
+	position: relative;
+	left: 10%;
+	top: 10%;
+}
+
+.ui-datepicker-prev{
+	position: relative;
+	left: 10%;
+	top: 20%;
+	transition: 0.2s;
+}
+
+.ui-datepicker-next{
+	transition: 0.2s;
+	position: relative;
+	top: 20%;
+	left: 55%;
+}
+
+.ui-datepicker-prev:hover{
+	cursor: pointer;
+	color: #c9c9c9;
+}
+.ui-datepicker-next:hover{
+	cursor: pointer;
+	color: #c9c9c9;
+}
+
+.ui-datepicker-title{
+	font-weight: bold;
+	text-align:center;
+}
+
+#province_area{
+	font-family: Century Gothic;
+	position: relative;
+	top: 10px;
+}
+
+#province{
+	font-size: 18px;
+	padding: 5px;
+	height:25px;
+	width: 280px;
+}
+
+
+.ui-autocomplete{
+	font-family: Century Gothic;
+	list-style: none;
+	background-color: #ffffff;
+	width: 15%;
+	text-align: left;
+	padding: 10px;
+	border: 1px solid #c9c9c9;
+}
+
+.ui-autocomplete:hover{
+	cursor: pointer;
+}
+
+.ui-menu-item{
+	padding: 2px;
+}
+
+.ui-menu-item:hover{
+	background-color: #c9c9c9;
+}
+
+#yearlevel{
+	font-size: 18px;
+	padding: 5px;
+	height:25px;
+	width: 280px;
+}
+
+#input_button{
+	position: relative;
+	left: 50%;
+	top: 0px;
+	width: 100px;
+	background-color: #7B1113;
+	font-family: century gothic;
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	transition: 0.2s;
+	border:0 none;
+	border-radius: 5px;
+}
+
+#input_button:hover{
+	background-color: #d09d9e;
+	cursor: pointer;
+}
